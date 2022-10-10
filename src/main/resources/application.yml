@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /api
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5401/gmfullstack
+    username: postgres
+    password: gabriel123456
+    pool-size: 30
